@@ -1,0 +1,1144 @@
+/* MagicNEXT Responsive */
+
+
+@media only screen and (min-width: 1400px){
+
+.home_page {
+  display: flex;
+  justify-content: space-between;
+}
+
+.home_page-img {
+  width: 1050px;
+  height: 568px;
+}
+
+
+.page-3 {
+  display: flex;
+  align-items: center;
+  width: 400px;
+  height: 568px;
+  background-color: #06283d;
+}
+
+.page-3_title {
+  text-align: center;
+  color: #aa8b56;
+  margin: -70px 50px 40px 0;
+  font-weight: 900;
+  font-size: 20px;
+}
+
+.realtors {
+  display: flex;
+  flex-direction: column;
+  width: 390px;
+  align-items: center;
+  padding: 40px 0 0 70px;
+}
+
+
+.realtors-con {
+  display: flex;
+  align-items: center;
+  width: 270px;
+  padding: 0px 17px 30px 17px;
+}
+
+/* --------------------------------------------------------- */
+
+.paragraphs {
+  position: absolute;
+  top: 600px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin: 50px 0 0 160px;
+}
+
+.paragraphs h3 {
+  color: #444;
+}
+
+.paragraph p {
+  width: 340px;
+  margin: 10px 0 70px 0;
+  line-height: 31px;
+  color: #7f8487;
+}
+
+/* ----------------------------------------------------------- */
+  
+.section-3 {
+  position: absolute;
+  top: 220%;
+  display: grid;
+  grid-template-columns: auto auto;
+
+}
+
+/* ------------------------------- */
+
+.section-3-text {
+  width: 810px;
+  height: 496px;
+  margin-top: 1px;
+  padding: 100px 0 0 100px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+/* ------------------------------------------------------------------- */
+
+.houses__container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 30px;
+  margin: 72% 0 0 80px;
+}
+
+.cardimg {
+  position: relative;
+  background-color: #F8F4EA;
+  width: 290px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.cardimg img {
+  width: 290px;
+  height: 170px;
+}
+
+/* ------------------------------------------------------------------- */
+
+.section-5 {
+  position: absolute;
+  top: 522%;
+  left: 20px;
+  width: 1360px;
+  height: 500px;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto;
+  gap: 15px;
+}
+
+/* --------------------------------------------------------- */
+
+.footer-section {
+  position: absolute;
+  top: 633%;
+  left: 0;
+  height: 262px;
+  width: 1400px;
+  background-color: #06283d;
+}
+  
+}
+
+/* ================================================================================ */
+/* ================================================================================ */
+
+@media only screen and (max-width: 1200px){
+ 
+ .home_page-img {
+    width: 1090px;
+    height: 700px;
+}
+
+ .favicon {
+    position: absolute;
+    width: 150px;
+    top: -170px;
+    left: 300px;
+}
+  
+ .home_page-text {
+    position: absolute;
+    margin: 205px 0 0 70px;
+    line-height: 40px;
+}
+  
+ .home_page-text button {
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 49px;
+}
+  
+ .home_page-text h4 {
+    position: absolute;
+    top: -10px;
+    font-size: 18px;
+}
+  
+ .home_page-text h1 {
+    position: absolute;
+    font-size: 40px;
+    width: 560px;
+}
+  
+ .seen_on{
+   display: flex;
+   justify-content: space-between;
+   margin: 150px 0 0 25px;
+}
+
+ .seen_on div{
+   display: inline-block;
+   width: 300px;
+   background-color: white;
+   color: white;
+   height: 1px;
+   margin-top: 20px;
+}
+
+ .seen_on p{
+   font-size: 23px;
+   margin: 0 8px;
+   color: white;
+}
+
+  .logos {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 395px;
+    left: 115px;
+}
+  
+  .logo-1 {
+    width: 90px;
+    height: 20px;
+    margin: 0 0 0 -40px;
+    align-items: center;
+}
+  
+  .logo-2 {
+    width: 95px;
+    height: 20px;
+    margin: 0 0 0 65px;
+}
+  
+  .logo-3 {
+    width: 120px;
+    height: 23px;
+    margin: 0 0 0 65px;
+}
+  
+  .logo-4 {
+    width: 95px;
+    height: 27px;
+    margin: 0 0 0 65px;
+  }
+
+  .page-3{
+    position: absolute;
+    right: -1px;
+    width: 320px;
+    height: 700px;
+}
+   
+  .page-3_title {
+    margin: -40px 20px 40px 0;
+    font-weight: 400;
+    font-size: 17px;
+}
+  
+  .realtors {
+    display: flex;
+    flex-direction: column;
+    width: 270px;
+    padding: 30px 0 0 20px;
+}
+  
+  .realtors-name {
+    color: white;
+    font-size: 14px;
+    margin-left: 10px;
+    width: 200px;
+}
+  
+  .numbers {
+    font-size: 10px;
+    color: #444;
+}
+  
+  .realtors-con {
+    display: flex;
+    align-items: center;
+    width: 230px;
+    padding: 10px 17px 15px 17px;
+}
+
+/* ------------------------------------------------- */
+
+  .paragraphs {
+    position: absolute;
+    top: 620px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 150px 0 20px 190px;
+}
+  .paragraphs h3 {
+    margin-left: 60px;
+    width: 170px;
+}
+
+  .paragraph p {
+    width: 170px;
+    margin: 10px 30px 70px 60px;
+    line-height: 31px;
+}
+
+/* ------------------------------------------ */
+
+.section-3 {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin: 50% 0 0 0px;
+}
+
+.section-3-text {
+  width: 636px;
+  margin: 0 auto;
+  padding: 90px 100px 0 150px;
+  height: 498px;
+}
+
+.section-3-text h1 {
+  color: #444;
+  font-size: 39px;
+  margin-left: -7px;
+  margin-top: 10px;
+}
+
+/* --------------------------------------------------- */
+
+.houses__container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 30px;
+  margin: 98% 0 0 63px;
+}
+
+/* --------------------------------------------------- */
+
+.section-5 {
+  position: absolute;
+  top: 670%;
+  left: 0;
+  width: 1179px;
+  height: 500px;
+  margin: 0 24px 0 24px;
+  gap: 15px;
+}
+
+/* ----------------------------------------- */
+
+.footer-section {
+  position: absolute;
+  top: 796%;
+  left: 0;
+  height: 262px;
+  width: 1216px;
+}
+
+.footer-title {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  width: 50%;
+  margin: 70px 60px 0 215px;
+}
+
+
+.footer-title-1{
+  width: 100px;
+  font-size: 12px;
+  font-weight: 300;
+  margin: 5% 60px 0 18%;
+}
+
+.footer-section p{
+  width: 45%;
+  margin-left: 28%;
+  margin-top: 45px;
+}
+
+}
+
+/* ============================================================================== */
+/* ============================================================================== */
+
+@media only screen and (max-width: 992px) {
+
+  .home_page-img{
+    width: 1088px;
+    height: 770px;
+    position: absolute;
+  }
+
+ .favicon {
+   position: absolute;
+   width: 150px;
+   top: -340px;
+   left: 290px;
+   position: absolute;
+   margin: 205px 0 0 110px;
+   line-height: 40px;
+}
+
+ .home_page-text button {
+   font-size: 15px;
+   font-weight: 500;
+   margin-top: 38px;
+}
+
+ .home_page-text h4 {
+   position: absolute;
+   top: -10px;
+   font-size: 18px;
+}
+
+ .home_page-text h1 {
+   position: absolute;
+   font-size: 45px;
+   width: 620px;
+   font-family: 'Josefin Sans', sans-serif;
+   font-family: 'Jost', sans-serif;
+   font-family: 'Kulim Park', sans-serif;
+   font-family: 'Roboto Mono', monospace;
+   font-family: 'Share', cursive;
+   font-family: 'Source Sans Pro', sans-serif;
+}
+
+ .seen_on{
+   display: flex;
+   justify-content: space-between;
+   margin: 180px 0 0 42px;
+}
+
+ .seen_on div{
+   display: inline-block;
+   width: 330px;
+   background-color: white;
+   color: white;
+   height: 1px;
+   margin-top: 20px;
+}
+
+ .seen_on p{
+   font-size: 23px;
+   margin: 0 8px;
+   color: white;
+}
+
+ .logos {
+   position: absolute;
+   display: flex;
+   justify-content: center;
+   top: 410px;
+   left: 155px;
+}
+ 
+ .logo-1 {
+   width: 90px;
+   height: 20px;
+   margin: 0 0 0 -40px;
+   align-items: center;
+}
+ 
+ .logo-2 {
+   width: 95px;
+   height: 20px;
+   margin: 0 0 0 65px;
+}
+ 
+ .logo-3 {
+   width: 110px;
+   height: 23px;
+   margin: 0 0 0 65px;
+}
+ 
+ .logo-4 {
+   width: 95px;
+   height: 27px;
+   margin: 0 0 0 65px;
+}
+
+ .page-3{
+    position: absolute;
+    top: 700px;
+    width: 1088px;
+    height: 220px;
+    left: 0;
+}
+   
+ .page-3_title {
+    position: absolute;
+    top: 75px;
+    left: 41%;
+    font-weight: 400;
+    font-size: 23px;
+}
+  
+ .realtors {
+    display: flex;
+    flex-direction: row;
+    width: 260px;
+    padding: 30px 0 0 0px;
+}
+  
+ .realtors-name {
+    color: white;
+    font-size: 14px;
+    margin-left: 10px;
+}
+  
+ .numbers {
+    position: absolute;
+    font-size: 10px;
+    color: #444;
+}
+  
+ .realtors-con {
+    display: flex;
+    align-items: center;
+    width: 230px;
+    padding: 10px 17px 15px 17px;
+    margin-left: 45%;
+}
+
+/* -------------------------------------- */
+
+ .paragraphs {
+   position: absolute;
+   top: 200%;
+   display: grid;
+   grid-template-columns: auto auto;
+   margin: 150px 0 0 135px;
+}
+
+ .paragraphs h3 {
+   margin-left: 60px;
+   width: 220px;
+}
+
+ .paragraph p {
+   width: 280px;
+   margin: 10px 30px 70px 60px;
+   line-height: 26px;
+}
+
+/* -----------------------------------*/
+
+.section-3 {
+  position: absolute;
+  top: 445%;
+  display: grid;
+  grid-template-columns: auto auto;
+  margin: 0 0 0 0px;
+}
+
+.section-3-text {
+  position: absolute;
+  left: 0px;
+  margin: -300px 0 0 5px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  width: 1077px;
+  padding: 27px;
+  height: 286px;
+}
+
+.section-3-text h4 {
+  margin-left: 30px;
+  color: #aa8b56;
+  font-family: serif;
+}
+
+.section-3-text h1 {
+ color: #444;
+ margin-left: 30px;
+ font-family: serif;
+ font-size: 41px;
+ margin-top: 13px;
+}
+
+.section-3-text p {
+  margin: 20px 0 0 30px;
+  color: #aa8b56;
+  width: 890px;
+}
+
+.section-3-text button {
+  text-align: center;
+  padding: 15px 17px;
+  background-color: #aa8b56;
+  color: white;
+  font-size: 17px;
+  font-weight: 500;
+  border: none;
+  margin: 45px 0 0 30px;
+}
+
+.storys {
+  width: 560px;
+  height: 500px;
+}
+
+ .story-1 {
+   width: 1087px;
+   height: 498px;
+   filter: invert(30%);
+}
+
+ .story-2 {
+   position: absolute;
+   width: 92%;
+   height: 70%;
+   left: 85px;
+   top: 55px;
+}
+
+ .story-3 {
+   position: absolute;
+   width: 84%;
+   height: 230px;
+   left: 530px;
+   top: 100px;
+}
+
+/* ------------------------------------------------- */
+
+.houses__container {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 10px;
+  margin: 75% 0 0 109px;
+}
+
+.cardimg {
+  margin-bottom: 60px;
+  position: relative;
+  background-color: #F8F4EA;
+  width: 380px;
+  top: 345%;
+}
+
+.cardimg img {
+  width: 380px;
+  height: 170px;
+}
+
+.cardimg1{
+  margin-right: 90px;
+}
+
+.title {
+  font-size: 18px;
+  padding: 10px 30px;
+}
+
+.title1 {
+  position: absolute;
+  top: 156px;
+  left: 55px;
+}
+
+.title2 {
+  position: absolute;
+  top: 156px;
+  left: 55px;
+}
+
+.title3 {
+  position: absolute;
+  top: 156px;
+  left: 55px;
+}
+
+.title4 {
+  position: absolute;
+  top: 156px;
+  left: 55px;
+}
+
+.title5 {
+  position: absolute;
+  top: 156px;
+  left: 55px;
+}
+
+.title6 {
+  position: absolute;
+  top: 156px;
+  left: 55px;
+}
+
+.cname {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-top: 40px;
+}
+
+.cname p {
+  margin: 20px 0 26px 70px;
+  color: #444;
+}
+
+.cardimg button {
+  padding: 15px 40px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.btn_1,
+.btn_2,
+.btn_3,
+.btn_4,
+.btn_5,
+.btn_6 {
+  width: 380px;
+  text-align: center;
+  background-color: #aa8b56;
+  font-weight: bold;
+}
+
+/* --------------------------------------------------- */
+
+.section-5 {
+  position: absolute;
+  top: 920%;
+  left: 0;
+  width: 1057px;
+  height: 500px;
+  margin: 0 14px 0 14px;
+  padding: 5px 8px;
+  gap: 15px;
+}
+
+/* ------------------------------------------------------- */
+
+ .footer-section {
+  position: absolute;
+  top: 1043%;
+  height: 262px;
+  width: 1088px;
+}
+
+.footer-title{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  width: 72%;
+  margin: 70px 40px 50px 118px;
+}
+
+.footer-title-1{
+  width: 160px;
+  font-size: 16px;
+}
+
+.footer-section p{
+  width: 566px;
+  font-weight: 100;
+  margin-left: 265px;
+  margin-top: 31px;
+  font-size: 15px;
+  text-align: center;
+}
+
+}
+
+@media only screen and (max-width: 768px){
+
+.houses__container {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 10px;
+  margin: 97% 0 0 109px;
+}
+
+}
+
+@media only screen and (max-width: 600px){
+
+.houses__container {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 10px;
+  margin: 125% 0 0 109px;
+}
+
+}
+
+@media only screen and (max-width: 568px){
+
+.houses__container {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 10px;
+  margin: 131% 0 0 109px;
+}
+
+}
+
+/* ============================================================================== */
+/* ============================================================================== */
+
+@media only screen and (max-width: 567px) {
+
+.home_page-img{
+  width: 68rem;
+  height: 700px;
+}
+
+.home_page-text {
+  position: absolute;
+  margin: 205px 0 0 110px;
+  line-height: 40px;
+}
+
+.favicon {
+  position: absolute;
+  width: 170px;
+  top: -360px;
+  left: 260px;
+}
+
+.home_page-text button {
+  font-size: 15px;
+  font-weight: 500;
+  margin-top: 80px;
+}
+
+.home_page-text h4 {
+  position: absolute;
+  top: -1px;
+  font-size: 17px;
+}
+
+.home_page-text h1 {
+  position: absolute;
+  font-size: 42px;
+  line-height: 50px;
+  width: 380px;
+}
+
+.seen_on{
+  display: flex;
+  justify-content: space-between;
+  margin: 140px 0 0 -12px;
+}
+
+.seen_on div{
+  display: inline-block;
+  width: 400px;
+  background-color: white;
+  color: white;
+  height: 2px;
+  margin-top: 20px;
+}
+
+.seen_on p{
+  width: 89px;
+  font-size: 26px;
+  margin: 0 5px 0 8px;
+  color: white;
+}
+
+.logos {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  top: 420px;
+  left: 155px;
+}
+
+.logo-1 {
+  width: 100px;
+  height: 30px;
+  margin: 0 0 0 -30px;
+  align-items: center;
+}
+
+.logo-2 {
+  width: 100px;
+  height: 30px;
+  margin: 0 0 0 65px;
+}
+
+.logo-3 {
+  width: 120px;
+  height: 30px;
+  margin: 0 0 0 65px;
+}
+
+.logo-4 {
+  width: 100px;
+  height: 36px;
+  margin: 0 0 0 65px;
+}
+
+.page-3{
+   position: absolute;
+   top: 700px;
+   width: 1088px;
+   height: 500px;
+}
+  
+.page-3_title {
+   position: absolute;
+   top: 75px;
+   left: 46%;
+   font-weight: 400;
+   font-size: 23px;
+}
+ 
+.realtors {
+   display: flex;
+   flex-direction: column;
+   width: 260px;
+   padding: 40px 0 0 0px;
+}
+ 
+.realtors-name {
+   color: white;
+   font-size: 14px;
+   margin-left: 10px;
+}
+ 
+.numbers {
+   position: absolute;
+   font-size: 10px;
+   color: #444;
+}
+ 
+.realtors-con {
+   display: flex;
+   align-items: center;
+   width: 290px;
+   padding: 32px 17px 15px 17px;
+   margin-left: 380%;
+}
+
+/* -------------------------------------- */
+
+.paragraphs {
+  position: absolute;
+  top: 200%;
+  display: grid;
+  grid-template-columns: auto;
+  margin: 440px 0 0 135px;
+}
+
+.paragraphs h3 {
+  margin-left: 270px;
+  width: 250px;
+}
+
+.paragraph p {
+  width: 330px;
+  margin: 10px 30px 70px 270px;
+  line-height: 26px;
+}
+
+/* -----------------------------------*/
+
+.section-3 {
+  position: absolute;
+  top: 635%;
+  display: grid;
+  grid-template-columns: auto auto;
+  margin: 0 0 0 0px;
+}
+
+.section-3-text {
+  position: absolute;
+  left: 0px;
+  margin: -300px 0 0 5px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  width: 1077px;
+  padding: 27px 0 27px 50px;
+  height: 280px;
+  text-align: left;
+}
+
+.section-3-text h4 {
+  color: #aa8b56;
+  font-family: serif;
+}
+
+.section-3-text h1 {
+  color: #444;
+  font-family: serif;
+  font-size: 41px;
+  margin-top: 13px;
+}
+
+.section-3-text p {
+  color: #aa8b56;
+  font-size: 17px;
+  width: 530px;
+}
+
+.section-3-text button {
+  text-align: center;
+  padding: 15px 17px;
+  background-color: #aa8b56;
+  color: white;
+  font-size: 17px;
+  font-weight: 500;
+  border: none;
+  margin: 45px 0 0 30px;
+}
+
+.storys {
+  width: 560px;
+  height: 500px;
+}
+
+.story-1 {
+  width: 1087px;
+  height: 498px;
+  filter: invert(30%);
+}
+
+.story-2 {
+  position: absolute;
+  width: 92%;
+  height: 70%;
+  left: 85px;
+  top: 55px;
+}
+
+.story-3 {
+  position: absolute;
+  width: 84%;
+  height: 230px;
+  left: 530px;
+  top: 100px;
+}
+
+/* ------------------------------------------------- */
+
+.houses__container {
+ display: grid;
+ grid-template-columns: auto;
+ gap: 10px;
+ margin: 273% 0 0 335px;
+}
+
+/* -------------------------------------------------- */
+
+.section-5 {
+  position: absolute;
+  top: 1470%;
+  left: 0;
+  width: 1057px;
+  height: 500px;
+  margin: 0 14px 0 14px;
+  padding: 5px 8px;
+  gap: 15px;
+}
+
+/* -------------------------------------------------- */
+
+ .footer-section {
+  position: absolute;
+  top: 1597%;
+  height: 350px;
+  width: 1088px;
+}
+
+.footer-title{
+  display: grid;
+  grid-template-columns: auto auto;
+  width: 45%;
+  margin: 50px 40px 50px 310px;
+  line-height: 29px;
+}
+
+.footer-title-1{
+  width: 160px;
+  font-size: 16px;
+}
+
+.footer-section p{
+  width: 566px;
+  font-weight: 100;
+  margin-left: 265px;
+  margin-bottom: 20px;
+  font-size: 15px;
+  text-align: center;
+}
+
+}
+
+@media only screen and (max-width: 530px){
+
+.houses__container {
+  display: grid;
+  grid-template-columns: auto;
+  gap: 10px;
+  margin: 290% 0 0 109px;
+  margin-left: 347px;
+}
+
+}
+
+@media only screen and (max-width: 450px){
+
+.houses__container {
+  display: grid;
+  grid-template-columns: auto;
+  gap: 10px;
+  margin: 345% 0 0 109px;
+  margin-left: 347px;
+}
+
+}
+
+@media only screen and (max-width: 400px){
+
+.houses__container {
+  display: grid;
+  grid-template-columns: auto;
+  gap: 10px;
+  margin: 385% 0 0 109px;
+  margin-left: 347px;
+}
+
+}
+
+@media only screen and (max-width: 370px){
+
+.houses__container {
+  display: grid;
+  grid-template-columns: auto;
+  gap: 10px;
+  margin: 420% 0 0 109px;
+  margin-left: 347px;
+}
+
+}
+
+@media only screen and (max-width: 340px){
+
+.houses__container {
+  display: grid;
+  grid-template-columns: auto;
+  gap: 10px;
+  margin: 455% 0 0 109px;
+  margin-left: 347px;
+}
+
+}
+
+@media only screen and (max-width: 300px){
+
+.houses__container {
+  display: grid;
+  grid-template-columns: auto;
+  gap: 10px;
+  margin: 515% 0 0 109px;
+  margin-left: 347px;
+}
+
+}
